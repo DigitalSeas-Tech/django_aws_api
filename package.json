@@ -1,0 +1,33 @@
+{
+  "name": "django_aws_api",
+  "version": "1.0.0",
+  "description": "Demo application for training purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalSeas-Tech/django_aws_api.git"
+  },
+  "keywords": [
+    "demo",
+    "django",
+    "aws",
+    "api",
+    "docker",
+    "serverless"
+  ],
+  "author": "Imran Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigitalSeas-Tech/django_aws_api/issues"
+  },
+  "homepage": "https://github.com/DigitalSeas-Tech/django_aws_api#readme",
+  "dependencies": {
+    "serverless-dotenv-plugin": "^3.10.0",
+    "serverless-prune-plugin": "^1.6.1",
+    "serverless-python-requirements": "^5.2.2",
+    "serverless-wsgi": "^3.0.0"
+  }
+}
